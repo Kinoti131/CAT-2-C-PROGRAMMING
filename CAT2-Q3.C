@@ -6,7 +6,7 @@ int main() {
     printf("Enter hours worked in a week: ");
     scanf("%f", &hours_worked);
 
-    printf("Enter hourly wage in Ksh: ");
+    printf("Enter hourly wage: ");
     scanf("%f", &hourly_wage);
 
     // Calculate gross pay
@@ -26,9 +26,9 @@ int main() {
     // Calculate net pay
     net_pay = gross_pay - taxes;
 
-    printf("Gross Pay: Ksh %.2f\n", gross_pay);
-    printf("Taxes: Ksh %.2f\n", taxes);
-    printf("Net Pay: Ksh %.2f\n", net_pay);
+    printf("Gross Pay: $%.2f\n", gross_pay);
+    printf("Taxes: $%.2f\n", taxes);
+    printf("Net Pay: $%.2f\n", net_pay);
 
     return 0;
 }
